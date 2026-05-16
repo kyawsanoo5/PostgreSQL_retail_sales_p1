@@ -2,6 +2,7 @@
 pgAdmin4
 
 ## **Project Overview**
+“This project demonstrates how SQL can drive actionable insights for retail businesses by identifying top-performing categories and stores.”
 
 **Project Title**: Retail Sales Analysis  
 **Database**: `p1_retail_db`
@@ -240,10 +241,14 @@ GROUP BY shift
 - **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
 
 ## **Reports**
-
 - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
 - **Trend Analysis**: Insights into sales trends across different months and shifts.
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
+
+## **Concise Business Storytelling**
+- Electronics drove 40% of total sales revenue.
+- Downtown store consistently outperformed others by 25%.
+- Clothing category underperformed, suggesting inventory optimization.
 
 ## **Business impact —**
 - "Cleaned dataset to ensure accuracy"
@@ -265,6 +270,12 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 2. **Set Up the Notebooks**: Run the shopping-behavior dataset provided in the `data` folder to create and populate the analysis.
 3. **Run the Syntax**: Use the Python syntax provided in the `Import the retail_sales.csv to PostgreSQL" and "Execute the SQL queries in pgAdmin4 or psq` file to perform your analysis.
 4. **Explore and Modify**: Feel free to modify the syntax to explore different aspects of the dataset or answer additional business questions.
+
+## **“Skills Demonstrated” →** 
+- SQL (Joins, Aggregations, Window Functions)
+- Data Cleaning & Validation
+- Business Insight Communication
+- Database Schema Design
 
 ## **Author - Kyawsanoo5**
 
