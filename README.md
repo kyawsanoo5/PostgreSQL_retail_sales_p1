@@ -108,7 +108,6 @@ GROUP BY 1
 | Electronics  | 3114455      | 678             |
 | Clothing     | 309995       | 698             |
 | Beauty       | 286790       | 611             |
-|--------------|--------------|-----------------| 
 
 4. **Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.**:
 ```sql
@@ -145,7 +144,6 @@ ORDER BY 1
 | Clothing     | Male         | 351             |
 | Electronics  | Male         | 343             |
 | Electronics  | Female       | 335             |
-|--------------|--------------|-----------------| 
 
 7. **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year**:
 ```sql
@@ -169,7 +167,6 @@ WHERE rank = 1
 |----------|-----------|-------------------|
 | 2022     | 7         | 541.3414634146342 |     
 | 2023     | 2         | 535.531914893617  |    
-|----------|-----------|-------------------| 
 
 8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
 ```sql
@@ -188,7 +185,6 @@ LIMIT 5
 | 5               | 30405             |     
 | 2               | 25295             |        
 | 4               | 23580             |    
-|-----------------|-------------------|
 
 9. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
 ```sql
@@ -203,7 +199,6 @@ GROUP BY category
 | Beauty       | 141               |  
 | Clothing     | 149               |        
 | Electronic   | 144               |        
-|--------------|-------------------|
 
 10. **Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)**:
 ```sql
@@ -229,7 +224,6 @@ GROUP BY shift
 | Morning   |  548            |  
 | Afternoon |  377            |        
 | Evening   | 1062            |        
-|-----------|-----------------|
 
 **"Insight:** Evening shifts show _the highest order_ volume, suggesting a need for more staffing during those hours."
 
