@@ -18,7 +18,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ## **Project Structure**
 
 ## ER PostgreSQL_retail_sales_p1 Diagram
-![ER_retail_sales](images/ER_retail_sales.png)
+![ER_retail_sales](image/ER_retail_sales.png)
 
 ### **1. Database Setup**
 
